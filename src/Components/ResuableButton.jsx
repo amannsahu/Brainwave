@@ -1,5 +1,5 @@
 import React from 'react'
-import ButtonSvg from "../assets/svg/ButtonSvg"
+import ButtonSvg from "/Projects/Brainware/public/assets/svg/ButtonSvg"
 
 const ResuableButton = ({className, href, children, onClick, px, white}) => {
   const classes = `button relative inline-flex items-center justify-center h-11 transition-colors hover:text-color-1 
