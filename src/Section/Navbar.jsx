@@ -3,7 +3,6 @@ import { useLocation } from 'react-router-dom'
 import brainwave from "../assets/brainwave.svg"
 import {navigation} from "../Constants"
 import ResuableButton from "../Components/ResuableButton"
-import ButtonGradient from "../assets/svg/ButtonGradient"
 import MenuSvg from "../assets/svg/MenuSvg"
 import { HamburgerMenu } from "../Section/design/Header"
 import { disablePageScroll, enablePageScroll } from 'scroll-lock'
@@ -63,7 +62,6 @@ const Navbar = () => {
         <ResuableButton className='ml-auto lg:hidden' px='px-3' onClick={toggleNavigation}>
             <MenuSvg openNavigation={openNavigation} />
         </ResuableButton>
-        <ButtonGradient/>
       </div>
     </div>
   )
