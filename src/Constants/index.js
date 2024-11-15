@@ -33,7 +33,7 @@ import {
     sliders04,
     telegram,
     twitter,
-    yourlogo,
+    Google,
   } from "../../public/assets";
   
   export const navigation = [
@@ -75,7 +75,28 @@ import {
   
   export const notificationImages = [notification4, notification3, notification2];
   
-  export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+  export const companyLogos = [
+    {
+      src: "../../public/assets/logos/google.png",
+      alt: "Google",
+    },
+    {
+      src: "../../public/assets/logos/microsoft.png",
+      alt: "Microsoft",
+    },
+    {
+      src: "../../public/assets/logos/oracle.png",
+      alt: "Oracle",
+    },
+    {
+      src: "../../public/assets/logos/cisco.png",
+      alt: "Cisco",
+    },
+    {
+      src: "../../public/assets/logos/capgemini.png",
+      alt: "Capgemini",
+    },
+  ];
   
   export const brainwaveServices = [
     "Photo generating",
