@@ -34,7 +34,7 @@ const Navbar = () => {
     <div className={`fixed top-0 left-0 w-full z-50 border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm
     ${openNavigation ? 'bg-n-8' : 'bg-n-8/90 backdrop-blur-sm'}`}>
       <div className='flex items-center justify-evenly px-5 lg:px-7.5 xl:px-10 max-lg:py-4'>
-        <a href="#hero" className='block w-[12rem] xl:mr-20'>
+        <a href="#hero" className='block w-[12rem] '>
             <img src={brainwave} alt="Brainwave" width={190} height={40} />
         </a>
 
@@ -52,7 +52,7 @@ const Navbar = () => {
             <HamburgerMenu/>
         </nav>
 
-        <a href="#signup" className='button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block xl:ml-20'>
+        <a href="#signup" className='button hidden text-n-1/50 transition-colors hover:text-n-1 lg:block xl:ml-20'>
                 New Account
         </a>
         <ResuableButton className='hidden lg:flex' href='#login'>

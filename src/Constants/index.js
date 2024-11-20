@@ -33,7 +33,6 @@ import {
     sliders04,
     telegram,
     twitter,
-    Google,
   } from "../../public/assets";
   
   export const navigation = [

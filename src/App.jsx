@@ -3,6 +3,7 @@ import Navbar from './Section/Navbar'
 import Hero from './Section/Hero'
 import ButtonGradient from './assets/svg/ButtonGradient'
 import Benefits from './Section/Benefits'
+import Collaboration from './Section/Collaboration'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <Navbar/>
         <Hero/>
         <Benefits/>
+        <Collaboration/>
       </div>
 
       <ButtonGradient/>
