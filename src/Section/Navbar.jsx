@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useLocation } from 'react-router-dom'
-import brainwave from "../assets/brainwave.svg"
+import brainwave from "../assets/brainwave-symbol.svg"
 import {navigation} from "../Constants"
 import ResuableButton from "../Components/ResuableButton"
 import MenuSvg from "../assets/svg/MenuSvg"
@@ -34,8 +34,9 @@ const Navbar = () => {
     <div className={`fixed top-0 left-0 w-full z-50 border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm
     ${openNavigation ? 'bg-n-8' : 'bg-n-8/90 backdrop-blur-sm'}`}>
       <div className='flex items-center justify-evenly px-5 lg:px-7.5 xl:px-10 max-lg:py-4'>
-        <a href="#hero" className='block w-[12rem] '>
-            <img src={brainwave} alt="Brainwave" width={190} height={40} />
+        <a href="#hero" className='block w-[12rem] lg:flex lg:items-center lg:gap-3'>
+            <img src={brainwave} alt="Brainwave" width={50} height={10} />
+            <h1 className='h4'>GenixAI</h1>
         </a>
 
         <nav className={`${openNavigation ? 'flex' : 'hidden'} fixed top-[5rem] left-0 right-0 bottom-0 bg-n-8 lg:static lg:flex`}>
