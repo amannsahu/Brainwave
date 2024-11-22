@@ -5,6 +5,7 @@ import ButtonGradient from './assets/svg/ButtonGradient'
 import Benefits from './Section/Benefits'
 import Collaboration from './Section/Collaboration'
 import BentoBox from './Section/BentoBox'
+import Pricing from './Section/Pricing'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Benefits/>
         <Collaboration/>
         <BentoBox/>
+        <Pricing/>
       </div>
 
       <ButtonGradient/>
